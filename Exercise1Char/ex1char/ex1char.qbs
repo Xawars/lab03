@@ -3,5 +3,9 @@ import qbs
 CppApplication {
     consoleApplication: true
     install: true
-    files: "main.cpp"
+    files: [
+        "functions_ex1char.cpp",
+        "functions_ex1char.h",
+        "main.cpp",
+    ]
 }
